@@ -1,12 +1,12 @@
 # Week 2 Lab (Due: )
 ## Author: Rohan Singh  
 
-This week, the lab won't have anything crazy or unusual since it is supposed to be an introduction to C. It contains code for simple print commands and arithmetic operations in C. You can find the file descriptions and lab instructions in this file, as well as a section for how to write/compile/run code in C.  
+In this weeks lab, we will be looking at flow statements and Arrays in C. You might want to refresh yourself with circular arrays that you learnt in data structures for this weeks lab.  
 
 ## Files
 Here is a description of the files in this week's lab:  
-  - **helloworld.c**: This file will be used to understand print statements in C.         
-  - **arithmetic.c**: This file will be used for arithmetic operations in C.    
+  - **flowstatements.c**: This file will be used to simple flow statements in C.         
+  - **circulararray.c**: This file will be used to demonstrate how arrays work in C by implementing a circular array.    
 
 ## Writing and Compiling code in C
 Here is a brief description on how to write/compile/run the code for your lab: 
@@ -29,23 +29,17 @@ If you are stuck on any of these steps, please check out the contact section to 
 ## Instructions for this weeks lab
 Here are the file specific intructions as well as the submission instructions.  
 
-**helloworld.c:**  
-  - You must first uncomment the valid print statement(s) from the 4 that are written in the file.  
-  - You must write down a print statement for your name.  
-  - You should initialize the 'age' variable, and write a print statement that prints out "My age is x", where x is your age.  
+**flowstatements.c:**  
+  - You will be provided with a flow statement example of getting the sum of 'n' integers using for and while loops.      
+  - Based on the example given above, you must design a C program that will calculate 'n!' (n factorial) using for and while loops.    
+  - You will have to print out the results from the operation as output.    
   
-**arithmetic.c:**
-  - You must carry out arithmetic operations on the 2 variables 'x' and 'y' and store the result in a variable called 'result'. 
-  - You then  have to print the following after every arithmetic operation: "The result of x <operator> y is result", where you replace x, y and result with the variable values.  
-  - The arithmetic operations are the same as those in Java, so this shouldn't really be a problem, but if you face any difficulty you may use this cheatsheet:  
-    > addition: +  
-    > subtraction: -  
-    > multiplication: *  
-    > division: /  
-    > modulus: %  
+**circulararray.c:**
+  - You will be provided with the full code of a circular array in C, you will see throughout this course that this particular Data Structure is very important in different places in Operating Systems.  
+  - Try to come up with a real-life example where you would use circular arrays and use the methods from the circular array inside the main method of this file.  
 
 **Submission:**  
-You must submit a pdf of the screenshots of your code and results on Canvas.
+You must attach a screenshot of you code and results of both programs in a pdf. In the same pdf you must also briefly describe the example/application that you chose for the circular array. You should submit this pdf on Canvas.  
 
 
 
