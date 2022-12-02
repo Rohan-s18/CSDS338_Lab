@@ -1,6 +1,8 @@
-# CSDS 338 Lab
+# CSDS 338: Intro to Operating Systems Lab
 ## Author: Rohan Singh (TA CSDS 338)   
-Repository for the CSDS 338 (Intro to Operating Systems) Lab for Case Western Reserve University. The lab component includes modules for the C Programming Language and Bash Scripts. The main objective of this lab is to make students proficient in C and Bash by the end of the semester. These modules will have their own README files that will contains the assignment instructions (they will also be available on Canvas) and will have links to resources that you can use for the assignments. You may try to attempt all of the lab modules before they are due, but remember that they may change and are not finalized until they are announced on Canvas.  
+Repository for the CSDS 338 (Intro to Operating Systems) Lab for Case Western Reserve University. The lab component includes modules for the C Programming Language and Bash Scripts. The main objective of this lab is to make students proficient in C and Bash by the end of the semester.  
+
+These modules will have their own README files that will contain additional details about the files as well as the assignment instructions (they will also be available on Canvas) and will have links to resources that you can use for the assignments. You may try to attempt all of the lab modules before they are due, but remember that they may change and are not finalized until they are announced on Canvas.  
 
 ## Modules  
 This is a brief description of all of the modules for the lab:  
