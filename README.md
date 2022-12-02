@@ -9,8 +9,13 @@ This is a brief description of all of the modules for the lab:
   - **Week 3:** This lab module contains the very basics of File I/O in C (Due: ).  
   - **Week 4:** This lab module contains an intro to Bash Scripting, echo commands, arithmetic operations, flow statements (Due: ).  
   - **Week 5:** This lab module contains an introduction to pointers in C. This includes, the basics of pointers, pointers of characters, pointer-array equivalence and pointers to functions (Due: ).  
-  - **Week 6:** This lab module contains Bash scripts that make Linux system calls such as our favourite /proc/* (Due: ).  
-  - **Week 7:** This lab module contains some basic Linux commands for you to check out (Due: ).  
+  - **Week 6:** This lab module contains Bash scripts that make Linux system calls as well as some basics of awk scripts (Due: ).  
+  - **Week 7:** This lab module contains Structs and pointers to Structs in C (Due: ).  
+  - **Week 8:** This lab module contains some basic Linux commands for you to check out (Due: ).  
+  - **Week 9:** This lab module contains working with process cloning in C, using fork() and exec() system calls (Due: ).  
+  - **Week 10:** This lab module contains multithreading in C (Due: ).  
+  - **Week 11:** This lab module contains mutex locking to illustrate the concepts of shared memory (Due: ).    
+  - **Week 12:** This lab module contains different memory allocation processes in C malloc(), calloc(), free() and realloc() (Due: ).  
   
  
 ## Contact
