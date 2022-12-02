@@ -30,7 +30,7 @@ If you are stuck on any of these steps, please check out the contact section to 
 Here are the file specific intructions as well as the submission instructions.  
 
 **flowstatements.c:**  
-  - You will be provided with a flow statement example of getting the sum of 'n' integers using for and while loops.      
+  - You will be provided with a flow statement example of getting the sum of 'n' integers using for, while and do-while loops.      
   - Based on the example given above, you must design a C program that will calculate 'n!' (n factorial) using for and while loops.    
   - You will have to print out the results from the operation as output.    
   
