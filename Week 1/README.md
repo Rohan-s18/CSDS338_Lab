@@ -7,8 +7,15 @@ This week, the lab won't have anything crazy or unusual. It contains code for si
 
 ## Files
 Here is a description of the files in this week's lab:  
-  - **helloworld.c**:    
-  - **arithmetic.c**:  
+  - **helloworld.c**: This file will be used to understand print statements in C.         
+  - **arithmetic.c**: This file will be used for arithmetic operations in C.    
 
-#Lab instructions
-These are the instructions for the lab for this week. 
+
+
+
+## Contact
+If you face any problems during this lab, you may come to my office hours, meet me in class or drop me an email at:  
+rxs1182@case.edu  
+rohan.b.singh54@gmail.com  
+
+
