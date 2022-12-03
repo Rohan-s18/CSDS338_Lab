@@ -8,7 +8,7 @@ This week, the lab won't have anything crazy or unusual since it is supposed to 
 
 ## Files
 Here is a description of the files in this week's lab:  
-  - **helloworld.c**: This file will be used to understand print statements in C.         
+  - **helloworld.c**: This file will be used for print statements in C.         
   - **arithmetic.c**: This file will be used for arithmetic operations in C.    
 
 ## Writing and Compiling code in C
