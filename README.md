@@ -9,7 +9,7 @@ This is a brief description of all of the modules for the lab:
   - **Week 1:** This lab module contains the very basics of the C Programming language. This includes printf commands and basic arithmetic operations (Due: ).  
   - **Week 2:** This lab module contains flow statements and arrays in C File I/O (Due: ).  
   - **Week 3:** This lab module contains the very basics of File I/O in C (Due: ).  
-  - **Week 4:** This lab module contains an intro to Bash Scripting, echo commands, arithmetic operations, flow statements (Due: ).  
+  - **Week 4:** This lab module contains an intro to Bash Scripting this will include using echo commands, variables, arithmetic operationsa and flow statements (Due: ).  
   - **Week 5:** This lab module contains an introduction to pointers in C. This includes, the basics of pointers, pointers of characters, pointer-array equivalence and pointers to functions (Due: ).  
   - **Week 6:** This lab module contains Bash scripts that make Linux system calls as well as some basics of awk scripts (Due: ).  
   - **Week 7:** This lab module contains Structs and pointers to Structs in C (Due: ).  
