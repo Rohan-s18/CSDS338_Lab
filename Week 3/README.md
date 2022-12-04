@@ -1,12 +1,12 @@
-# Week 2 Lab (Due: )
+# Week 3 Lab (Due: )
 ## Author: Rohan Singh  
 
-In this weeks lab, we will be looking at flow statements and Arrays in C. You might want to refresh yourself with circular arrays that you learnt in data structures for this weeks lab.  
+In this weeks lab, we will be looking at File I/O in C. After completing this week's lab exercise you will learn how to read contents from a file in C and how to write in a file in C. 
 
 ## Files
 Here is a description of the files in this week's lab:  
-  - **flowstatements.c**: This file will be used to simple flow statements in C.         
-  - **circulararray.c**: This file will be used to demonstrate how arrays work in C by implementing a circular array.    
+  - **readfile.c**: This file contains the source code on how to read a file using C.           
+  - **writefile.c**: This file contains the source code on how to write something inside a file using C.      
 
 ## Writing and Compiling code in C
 Here is a brief description on how to write/compile/run the code for your lab: 
