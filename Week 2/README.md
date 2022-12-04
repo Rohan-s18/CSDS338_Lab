@@ -36,6 +36,7 @@ Here are the file specific intructions as well as the submission instructions.
   
 **circulararray.c:**
   - You will be provided with the full code of a circular array in C, you will see throughout this course that this particular Data Structure is very important in different places in Operating Systems.  
+  - Try to explain what is happening in the code by writing down comments. Your previous knowledge of circular arrays will come in handy over here.   
   - Try to come up with a real-life example where you would use circular arrays and use the methods from the circular array inside the main method of this file.  
 
 **Submission:**  
