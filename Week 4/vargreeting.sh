@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#! /bin/bash
 
 # In bash the variables and assignments shouldn't have any spaces between them
 greeting=Hello
