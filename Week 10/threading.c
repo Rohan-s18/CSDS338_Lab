@@ -1,22 +1,23 @@
+//Author: Rohan Singh
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <pthread.h>
 #include <unistd.h>
 
-int *count;
+int count;
 
 int incr();
 void *mythreadstart();
 
 int main(){
 	pthread_t t1, t2;
-	count = malloc(sizeof(int));
+	count = 0;
 	pthread_create(&t1,NULL,mythreadstart,NULL);
 	pthread_create(&t2,NULL,mythreadstart,NULL);
 	pthread_join(t1,NULL);
 	pthread_join(t2,NULL);
-	fprintf(stdout,"The value of count is: %d\n",*count);
+	fprintf(stdout,"The value of count is: %d\n",count);
 	return 0;
 }
 
@@ -27,7 +28,7 @@ void *mythreadstart(){
 }
 
 int incr(){
-	(*count)++;
+	count++;
 	return 1;
 }
 
