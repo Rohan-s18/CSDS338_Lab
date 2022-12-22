@@ -7,7 +7,7 @@ These modules (not to be confused with C modules) will have their own README fil
 
 ## Modules  
 This is a brief description of all of the modules for the lab:
-  - **Week 0:** This lab module contains an introduction to the Linux Command Line Interface (CLI).  
+  - **Week 0:** This lab module contains instructions to connect to the EECSLab Server and an introduction to the Linux Command Line Interface (CLI).  
   - **Week 1:** This lab module contains some basic Linux commands for you to check out.  
   - **Week 2:** This lab module contains the very basics of the C Programming language. This includes printf commands and basic arithmetic operations.  
   - **Week 3:** This lab module contains flow statements and arrays in C.  
