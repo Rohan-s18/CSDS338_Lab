@@ -1,11 +1,15 @@
 #include <stdio.h>
+#import <stdlib.h>
+#import <string.h>
 
-const int nprimes = 100;
-int prime[nprimes];
+int nprimes;
+int *prime;
 
-int main() { 
+int main(int argc, char *argv[]) {
 	int i;
 	int current = 2;
+	nprimes = atoi(argv[1]);
+	prime = (int *)malloc(nprimes*sizeof(int)); 
 	prime[0] = current;
 	for (i=1; i<nprimes; i++) {
 		int j; 
