@@ -10,7 +10,7 @@ int main(){
     int fd;
     char buffer[1024];
 
-    fd = open("textfile", O_RDONLY);
+    fd = open("textfile.txt", O_RDONLY);
     //go to last char in file 
     int fptr = lseek(fd, (off_t)-1, SEEK_END); 
 
