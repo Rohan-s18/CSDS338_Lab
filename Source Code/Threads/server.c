@@ -1,13 +1,14 @@
 //  Author: Rohan Singh
+//  12/26/2022
 //  This code will demonstrate how to create POSIX threads (this code will not work in Windows)
 
-
+//  Imports
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
 
 
-//This method is the thread routine 
+//  This method is the thread routine 
 void *server(int arg){
 
     //Print message to tell which thread is currently active
@@ -18,7 +19,7 @@ void *server(int arg){
 
 }
 
-//This method will create n servers who will do the server task
+//  This method will create n servers who will do the server task
 void start_servers(int n_servers){
 
     pthread_t thread;
@@ -38,7 +39,7 @@ void start_servers(int n_servers){
 }
 
 
-//Main method
+//  Main method
 int main(){
 
     start_servers(10);
