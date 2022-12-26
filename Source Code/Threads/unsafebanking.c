@@ -38,7 +38,7 @@ void deposit(){
 void *alis_routine(){
 
     //Withdrawing money
-    for(int i = 0; i < 1000000; i++){
+    for(int i = 0; i < 100000000; i++){
         withdraw();
     }
 
@@ -49,7 +49,7 @@ void *alis_routine(){
 void *mariels_routine(){
 
     //Withdrawing money
-    for(int i = 0; i < 1000000; i++){
+    for(int i = 0; i < 100000000; i++){
         deposit();
     }
 
@@ -64,8 +64,20 @@ int main(){
     balance = malloc(sizeof(int));
 
     //Creating the threads for Ali and Mariel
-    pthread_create();
-    pthread_create();
+    pthread_create(
+        &ali,
+        NULL,
+        alis_routine,
+        NULL
+    );
+    pthread_create(
+        &mariel,
+        NULL,
+        mariels_routine,
+        NULL
+    );
+
+    printf("The balance is: %d\n",*balance);
 
     return 0;
 
