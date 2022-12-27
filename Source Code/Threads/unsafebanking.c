@@ -6,9 +6,9 @@
 //  Mariel is the responsible one and deposits money to the account
 //  Ali is the freeloader and withdraws the money from the account
 //  The initial deposit is $0
-//  Mariel makes 1000000 deposits of $100 each
-//  Ali makes 1000000 withdrawls of $100 each
-//  At the end, the final deposit should be $0equal credit and debit)
+//  Mariel makes 1000000 deposits of $1000 each
+//  Ali makes 1000000 withdrawls of $1000 each
+//  At the end, the final deposit should be 0 (equal credit and debit)
 
 //  Imports
 #include <stdio.h>
@@ -38,7 +38,7 @@ void deposit(){
 void *alis_routine(){
 
     //Withdrawing money
-    for(int i = 0; i < 100000000; i++){
+    for(int i = 0; i < 10000000; i++){
         withdraw();
     }
 
@@ -49,7 +49,7 @@ void *alis_routine(){
 void *mariels_routine(){
 
     //Withdrawing money
-    for(int i = 0; i < 100000000; i++){
+    for(int i = 0; i < 10000000; i++){
         deposit();
     }
 
@@ -76,6 +76,10 @@ int main(){
         mariels_routine,
         NULL
     );
+
+    //Terminating the threads
+    pthread_join(mariel,NULL);
+    pthread_join(ali,NULL);
 
     printf("The balance is: %d\n",*balance);
 
