@@ -41,3 +41,5 @@ int main(int argc, char *argv[]) {
 		fprintf(stdout,"Prime number %d is: %d\n",k+1,prime[k]);
 	return 0; 
 }
+
+
