@@ -16,33 +16,59 @@ int main(){
     FILE *fp_read;
 
     //Refering it to the file that we need to read
-    fp_read = fopen("/mem_map_linux.txt","r");
+    //Change the filepath
+    fp_read = fopen("/Users/rohansingh/github_repos/CSDS338_Lab/Source Code/File I-O/mem_map_linux.txt","r");
 
     //Checking if it was unsuccessful
     if(!fp_read){
-        printf("File not found :/");
+        printf("File not found :/\n");
         return 1;
     }
 
     //String for the current line
-    char* curr_line;
+    char curr_line[1000];
 
-    //Creating a filepointer for the file we need to write in
+    //Creating a filepointer for the file we need to write in (change the filepath)
     FILE* fp_write;
-    fp_write = fopen("/stats.txt","w");
+    fp_write = fopen("/Users/rohansingh/github_repos/CSDS338_Lab/Source Code/File I-O/stats.txt","w");
 
     //Checking if it was unsuccessful
     if(!fp_write){
-        printf("Oopsie Poopsie :/");
+        printf("Oopsie Poopsie :/\n");
         return 1;
     }
 
     //This is where shit gets real (Actually Reading the file)
+    //We will be calculating the size of each memory segment and the gap
+
+    //ints to store the high and low address points, size and the previous high
+    unsigned long long int low;
+    unsigned long long int high;
+    unsigned long long int size;
+    unsigned long long int prev_high = 0;
+    unsigned long long int gap;
+    
+    //Using the fgets method to get the string for the current line
+    while(fgets(curr_line, 1000, fp_read) != NULL){
+
+        //Using the sscanf method to scan the current string for the highs and lows
+        //Format of file is hexadecimal, so we willbe using %llx and not %d
+        sscanf(curr_line, "%llx-%llx" ,&low ,&high);
+
+        //Calculating the size
+        size = high - low;
+
+        //Calculating the gap
+        gap = low - prev_high;
+
+        prev_high = high;
+
+        //Writing to the stats file
+        fprintf(fp_write,"Size of segment: %llu\nGap between segments: %llu\n\n",size,gap);
+
+    }
         
     
-    
-    
-
 
     return 0;
 
