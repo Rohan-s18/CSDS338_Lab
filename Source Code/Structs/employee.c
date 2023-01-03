@@ -11,7 +11,6 @@
 
 //  This is an example of a struct in C, Structs help us hold data of any kind
 //  The struct 'Employee' will hold a string name, int age and string id
-
 struct Employee{
 
     //Field for name, age and id
@@ -22,6 +21,7 @@ struct Employee{
     //This will be exmplained later
     char* superpower;
 };
+
 
 //  This method will print the employee id card using a Struct
 void print_employee_card(struct Employee employee);
@@ -34,6 +34,8 @@ void change_superpower(struct Employee employee, char* superpower);
 
 //  This method will change the superpower for the reference to the Employee
 void change_ptr_superpower(struct Employee* employee, char* superpower);
+
+
 
 //  Main method
 int main(){
