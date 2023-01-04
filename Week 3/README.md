@@ -35,7 +35,11 @@ This weeks lab modules will demonstrate how to work with pointers in C.
 **Note:** You should look at them in the order in which they are listed here (Not the order in which they are in the directory).  
 
 Files:
-  - ****:
+  - **intro.c**: This program is an introduction to pointers, how to declare them and how to dereference them.  
+  - **array_pointers.c:** This program demonstrates the array-pointer equivalence.  
+  - **void_pointer.c:** This program demonstrates the use of void pointers in C.  
+  - **reference_methods.c:** This program demonstrates how to use references in methods (and also why).  
+  - **funct_ptr.c:** This program demonstrates how to use pointers to functions.  
 
 
 
