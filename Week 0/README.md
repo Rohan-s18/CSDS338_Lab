@@ -32,7 +32,7 @@ Once you are connected to the eecslab server try running some of these basic Lin
     This command gives us the location of the the given command (such as date/ps etc).  
     
 ## Contact 
-If you face any problems or have any questions, please contact me at:  
+Like all weeks, I will be going through the Lab content in my office hours of the same week, so if you have any questions just let me know over there. Additionally you can send me an email at:  
 rxs1182@case.edu  
 rohan.b.singh54@gmail.com  
 

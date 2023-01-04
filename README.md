@@ -21,6 +21,6 @@ This is a brief description of all of the modules for the lab:
   
  
 ## Contact
-If you face any problem, have any questions or just wanna talk about quantum computing, please contact me at:  
+Every week I will be going through the Lab content in my office hours of the same week, so if you have any questions just let me know over there. Additionally you can send me an email at:  
 rxs1182@case.edu  
 rohan.b.singh54@gmail.com  

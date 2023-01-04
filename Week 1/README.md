@@ -21,8 +21,7 @@ If you haven't already checked the basic commands in the Week 0 module, please c
 
 
 ## Contact 
-If you face any problems or have any questions, please contact me at:  
+Like all weeks, I will be going through the Lab content in my office hours of the same week, so if you have any questions just let me know over there. Additionally you can send me an email at:  
 rxs1182@case.edu  
 rohan.b.singh54@gmail.com  
-
 
