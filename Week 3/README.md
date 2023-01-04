@@ -1,12 +1,14 @@
-# Week 2 Lab (Due: )
+# Week 3 
 ## Author: Rohan Singh  
 
-In this weeks lab, we will be looking at flow statements and Arrays in C. You might want to refresh yourself with circular arrays that you learnt in data structures for this weeks lab.  
+Hello there!  
+In this weeks lab we will talk about Pointers in C. Pointers are probably the most core concept to understand in C, its probably as important as knowing what classes and objects are in Java. Throughout this lab we will be using pointers in many different places, so it is extremely important that you thoroughly understand pointers.  
 
-## Files
-Here is a description of the files in this week's lab:  
-  - **flowstatements.c**: This file will be used to simple flow statements in C.         
-  - **circulararray.c**: This file will be used to demonstrate how arrays work in C by implementing a circular array.    
+Learning C without understanding pointers is like drinking Swiss miss, it is something, but the entire experience is shitty and makes you question the existence of a higher power.  
+
+
+## Pointers
+Pointers are objects that hold the memory address of a variable. Pointers can point to varibales as well as other functions. 
 
 ## Writing and Compiling code in C
 Here is a brief description on how to write/compile/run the code for your lab: 
@@ -26,21 +28,8 @@ Here is a brief description on how to write/compile/run the code for your lab:
 
 If you are stuck on any of these steps, please check out the contact section to reach out to me.  
 
-## Instructions for this weeks lab
-Here are the file specific intructions as well as the submission instructions.  
+## Files
 
-**flowstatements.c:**  
-  - You will be provided with a flow statement example of getting the sum of 'n' integers using for, while and do-while loops.      
-  - Based on the example given above, you must design a C program that will calculate 'n!' (n factorial) using for and while loops.    
-  - You will have to print out the results from the operation as output.    
-  
-**circulararray.c:**
-  - You will be provided with the full code of a circular array in C, you will see throughout this course that this particular Data Structure is very important in different places in Operating Systems.  
-  - Try to explain what is happening in the code by writing down comments. Your previous knowledge of circular arrays will come in handy over here.   
-  - Try to come up with a real-life example where you would use circular arrays and use the methods from the circular array inside the main method of this file.  
-
-**Submission:**  
-You must attach a screenshot of you code and results of both programs in a pdf. In the same pdf you must also briefly describe the example/application that you chose for the circular array. You should submit this pdf on Canvas.  
 
 
 
