@@ -2,7 +2,7 @@
 ## Author: Rohan Singh
 Hey There!  
 Welcome to Operating Systems!  
-I hope you had a great winter break and got osme well-deserved rest.  
+I hope you had a great winter break and got some well-deserved rest.  
 The objective of this module is to set you up for the course by helping you connect to the EECSLab server using through an SSH and introducing you to the Linux Command Line Interface (CLI).     
 
 ## Connecting to the EECSLab server
@@ -31,3 +31,8 @@ Once you are connected to the eecslab server try running some of these basic Lin
   - **type \<command\>**  
     This command gives us the location of the the given command (such as date/ps etc).  
     
+## Contact 
+If you face any problems or have any questions, please contact me at:  
+rxs1182@case.edu  
+rohan.b.singh54@gmail.com  
+
