@@ -8,7 +8,9 @@ Learning C without understanding pointers is like drinking Swiss miss, it is som
 
 
 ## Pointers
-Pointers are objects that hold the memory address of a variable. Pointers can point to varibales as well as other functions. 
+Pointers are objects that hold the memory address of a variable. Pointers can point to varibales as well as functions. In other words, pointers themselves don't store the value, but rather point to the object storing the value (same thing for pointers to functions).  
+
+In the words of Anthony DeMello: *"When the sage points at the moon, all that the idiot sees is the finger."*
 
 ## Writing and Compiling code in C
 Here is a brief description on how to write/compile/run the code for your lab: 
@@ -29,7 +31,11 @@ Here is a brief description on how to write/compile/run the code for your lab:
 If you are stuck on any of these steps, please check out the contact section to reach out to me.  
 
 ## Files
+This weeks lab modules will demonstrate how to work with pointers in C.  
+**Note:** You should look at them in the order in which they are listed here (Not the order in which they are in the directory).  
 
+Files:
+  - ****:
 
 
 
