@@ -14,9 +14,9 @@ This is a brief description of all of the modules for the lab:
   - **Week 4 (Intro to Bash):** This lab module contains an intro to Bash Scripting this will include using echo commands, variables, arithmetic operationsa and flow statements.  
   - **Week 5 (Structs):** This lab module contains code to demonstrate the use of Structs.      
   - **Week 6 (File I/O):** This lab module contains code that deals with simple File I/O operations in C.  
-  - **Week 6 (Bash/Awk):** This lab module contains Bash scripts that make Linux system calls as well as some basics of awk scripts.  
-  - **Week 7 (Process Cloning):** This lab module contains working with process cloning in C, using fork() and exec() system calls.  
-  - **Week 8 (Threads):** This lab module contains multithreading in C.    
+  - **Week 7 (Bash/Awk):** This lab module contains Bash scripts that make Linux system calls as well as some basics of awk scripts.  
+  - **Week 8 (Process Cloning):** This lab module contains working with process cloning in C, using fork() and exec() system calls.  
+  - **Week 9 (Threads):** This lab module contains multithreading in C.    
   - **Week 10 (Memory Allocation):** This lab module contains different memory allocation processes in C malloc(), calloc(), free() and realloc() as well as buffer problems.   
   - **Week 11 (Your Choice):** This lab module will be upto you to decide, I will be asking for suggestions and whatever you decide will be covered in this module.  
   - **Week 12 (UNIX Shell in C):** This lab module contains code for a UNIX shell written in C.  
