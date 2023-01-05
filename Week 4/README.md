@@ -39,15 +39,17 @@ Here is a brief description on how to write/compile/run the code for your lab:
 If you are stuck on any of these steps, please check out the contact section to reach out to me.  
 
 ## Files
-This weeks lab modules will demonstrate how to work with pointers in C.  
+This weeks lab modules will demonstrate how write bash scripts.  
 **Note:** You should look at them in the order in which they are listed here (Not the order in which they are in the directory).  
 
 Files:
-  - **intro.c**: This program is an introduction to pointers, how to declare them and how to dereference them.  
-  - **array_pointers.c:** This program demonstrates the array-pointer equivalence.  
-  - **void_pointer.c:** This program demonstrates the use of void pointers in C.  
-  - **reference_methods.c:** This program demonstrates how to use references in methods (and also why).  
-  - **funct_ptr.c:** This program demonstrates how to use pointers to functions.  
+  - **greeting.sh**: This script illustrates the echo command.  
+  - **vargreeting.sh.c:** This script demonstrates the declaration and usage of variables.  
+  - **copy.sh:** This script demonstrates the cp command.  
+  - **procmap.sh:** This program demonstrates how to use the ">" command and getting pids.    
+  - **conditional.sh:** This script demonstrates how to use conditional statements.  
+  - **logic.sh:** This script demonstrates how to use logical functions (and/or).  
+  - **factorial.sh:** This program demonstrates how to use pointers to use while loops.  
 
 
 
