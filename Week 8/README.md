@@ -27,6 +27,15 @@ Here is a brief description on how to write/compile/run the code for your lab:
 If you are stuck on any of these steps, please check out the contact section to reach out to me.  
 
 ## Files
+This weeks lab modules will demonstrate how to work with File I/O in C.  
+**Note:** You should look at them in the order in which they are listed here (Not the order in which they are in the directory).  
+
+Files:
+  - **simple_fork.c:** Demonstration of fork() system call.  
+  - **simple_fork2.c:** Demonstration of process differentiation in fork().  
+  - **simple_exec.c:** Demonstration of the exec() system call.  
+  - **simple.c:** The compiled code from here will be used in the simple_exec().  
+  - **simple.exe:** Compiled version of simple.c, this is the argument to execl().  
 
 ## Contact
 If you face any problems during this lab, you may come to my office hours, meet me in class or drop me an email at:  
