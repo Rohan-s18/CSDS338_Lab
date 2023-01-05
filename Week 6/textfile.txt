@@ -1,0 +1,4 @@
+Hello World!
+My name is Rohan Singh and I am a sophomore Computer Science and Physics major at Case Western Reserve University at Cleveland, Ohio.
+I really enjoy working with low-level programming languages like C/C++ because they are cool :)
+I also spend a lot of time working on my personal ML projects and also Quantum Computing because why not.

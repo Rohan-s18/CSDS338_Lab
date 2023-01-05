@@ -1,0 +1,121 @@
+004d0000-004db000 r-xp 00000000 fd:00 3807059    /usr/lib/i386-linux-gnu/gconf/gconfd-2
+004db000-004dc000 r--p 0000a000 fd:00 3807059    /usr/lib/i386-linux-gnu/gconf/gconfd-2
+004dc000-004dd000 rw-p 0000b000 fd:00 3807059    /usr/lib/i386-linux-gnu/gconf/gconfd-2
+01f4d000-01f89000 rw-p 00000000 00:00 0          [heap]
+b72f7000-b7303000 r-xp 00000000 fd:00 4983915    /lib/i386-linux-gnu/libnss_files-2.27.so
+b7303000-b7304000 r--p 0000b000 fd:00 4983915    /lib/i386-linux-gnu/libnss_files-2.27.so
+b7304000-b7305000 rw-p 0000c000 fd:00 4983915    /lib/i386-linux-gnu/libnss_files-2.27.so
+b7305000-b730b000 rw-p 00000000 00:00 0 
+b730b000-b7321000 r-xp 00000000 fd:00 4983909    /lib/i386-linux-gnu/libnsl-2.27.so
+b7321000-b7322000 ---p 00016000 fd:00 4983909    /lib/i386-linux-gnu/libnsl-2.27.so
+b7322000-b7323000 r--p 00016000 fd:00 4983909    /lib/i386-linux-gnu/libnsl-2.27.so
+b7323000-b7324000 rw-p 00017000 fd:00 4983909    /lib/i386-linux-gnu/libnsl-2.27.so
+b7324000-b7326000 rw-p 00000000 00:00 0 
+b7330000-b733f000 r-xp 00000000 fd:00 3807058    /usr/lib/i386-linux-gnu/gconf/2/libgconfbackend-xml.so
+b733f000-b7340000 r--p 0000e000 fd:00 3807058    /usr/lib/i386-linux-gnu/gconf/2/libgconfbackend-xml.so
+b7340000-b7341000 rw-p 0000f000 fd:00 3807058    /usr/lib/i386-linux-gnu/gconf/2/libgconfbackend-xml.so
+b7341000-b7541000 r--p 00000000 fd:00 3539575    /usr/lib/locale/locale-archive
+b7541000-b7543000 rw-p 00000000 00:00 0 
+b7543000-b7549000 r-xp 00000000 fd:00 4980875    /lib/i386-linux-gnu/libuuid.so.1.3.0
+b7549000-b754a000 ---p 00006000 fd:00 4980875    /lib/i386-linux-gnu/libuuid.so.1.3.0
+b754a000-b754b000 r--p 00006000 fd:00 4980875    /lib/i386-linux-gnu/libuuid.so.1.3.0
+b754b000-b754c000 rw-p 00007000 fd:00 4980875    /lib/i386-linux-gnu/libuuid.so.1.3.0
+b754c000-b7562000 r-xp 00000000 fd:00 4983969    /lib/i386-linux-gnu/libgpg-error.so.0.22.0
+b7562000-b7563000 r--p 00015000 fd:00 4983969    /lib/i386-linux-gnu/libgpg-error.so.0.22.0
+b7563000-b7564000 rw-p 00016000 fd:00 4983969    /lib/i386-linux-gnu/libgpg-error.so.0.22.0
+b7564000-b75b7000 r-xp 00000000 fd:00 4983886    /lib/i386-linux-gnu/libblkid.so.1.1.0
+b75b7000-b75ba000 r--p 00052000 fd:00 4983886    /lib/i386-linux-gnu/libblkid.so.1.1.0
+b75ba000-b75bb000 rw-p 00055000 fd:00 4983886    /lib/i386-linux-gnu/libblkid.so.1.1.0
+b75bb000-b75bc000 rw-p 00000000 00:00 0 
+b75bc000-b7697000 r-xp 00000000 fd:00 4980841    /lib/i386-linux-gnu/libgcrypt.so.20.2.1
+b7697000-b7698000 ---p 000db000 fd:00 4980841    /lib/i386-linux-gnu/libgcrypt.so.20.2.1
+b7698000-b7699000 r--p 000db000 fd:00 4980841    /lib/i386-linux-gnu/libgcrypt.so.20.2.1
+b7699000-b769c000 rw-p 000dc000 fd:00 4980841    /lib/i386-linux-gnu/libgcrypt.so.20.2.1
+b769c000-b769f000 rw-p 00000000 00:00 0 
+b769f000-b76b3000 r-xp 00000000 fd:00 3539590    /usr/lib/i386-linux-gnu/liblz4.so.1.7.1
+b76b3000-b76b4000 r--p 00013000 fd:00 3539590    /usr/lib/i386-linux-gnu/liblz4.so.1.7.1
+b76b4000-b76b5000 rw-p 00014000 fd:00 3539590    /usr/lib/i386-linux-gnu/liblz4.so.1.7.1
+b76b5000-b76de000 r-xp 00000000 fd:00 4981204    /lib/i386-linux-gnu/liblzma.so.5.2.2
+b76de000-b76df000 ---p 00029000 fd:00 4981204    /lib/i386-linux-gnu/liblzma.so.5.2.2
+b76df000-b76e0000 r--p 00029000 fd:00 4981204    /lib/i386-linux-gnu/liblzma.so.5.2.2
+b76e0000-b76e1000 rw-p 0002a000 fd:00 4981204    /lib/i386-linux-gnu/liblzma.so.5.2.2
+b76e1000-b76e9000 r-xp 00000000 fd:00 4983929    /lib/i386-linux-gnu/librt-2.27.so
+b76e9000-b76ea000 r--p 00007000 fd:00 4983929    /lib/i386-linux-gnu/librt-2.27.so
+b76ea000-b76eb000 rw-p 00008000 fd:00 4983929    /lib/i386-linux-gnu/librt-2.27.so
+b76eb000-b774a000 r-xp 00000000 fd:00 4980870    /lib/i386-linux-gnu/libmount.so.1.1.0
+b774a000-b774b000 ---p 0005f000 fd:00 4980870    /lib/i386-linux-gnu/libmount.so.1.1.0
+b774b000-b774c000 r--p 0005f000 fd:00 4980870    /lib/i386-linux-gnu/libmount.so.1.1.0
+b774c000-b774d000 rw-p 00060000 fd:00 4980870    /lib/i386-linux-gnu/libmount.so.1.1.0
+b774d000-b774e000 rw-p 00000000 00:00 0 
+b774e000-b7762000 r-xp 00000000 fd:00 4983927    /lib/i386-linux-gnu/libresolv-2.27.so
+b7762000-b7763000 r--p 00013000 fd:00 4983927    /lib/i386-linux-gnu/libresolv-2.27.so
+b7763000-b7764000 rw-p 00014000 fd:00 4983927    /lib/i386-linux-gnu/libresolv-2.27.so
+b7764000-b7766000 rw-p 00000000 00:00 0 
+b7766000-b778f000 r-xp 00000000 fd:00 4980822    /lib/i386-linux-gnu/libselinux.so.1
+b778f000-b7790000 r--p 00028000 fd:00 4980822    /lib/i386-linux-gnu/libselinux.so.1
+b7790000-b7791000 rw-p 00029000 fd:00 4980822    /lib/i386-linux-gnu/libselinux.so.1
+b7791000-b7792000 rw-p 00000000 00:00 0 
+b7792000-b77af000 r-xp 00000000 fd:00 4981025    /lib/i386-linux-gnu/libz.so.1.2.11
+b77af000-b77b0000 r--p 0001c000 fd:00 4981025    /lib/i386-linux-gnu/libz.so.1.2.11
+b77b0000-b77b1000 rw-p 0001d000 fd:00 4981025    /lib/i386-linux-gnu/libz.so.1.2.11
+b77b1000-b77b8000 r-xp 00000000 fd:00 3539593    /usr/lib/i386-linux-gnu/libffi.so.6.0.4
+b77b8000-b77b9000 r--p 00006000 fd:00 3539593    /usr/lib/i386-linux-gnu/libffi.so.6.0.4
+b77b9000-b77ba000 rw-p 00007000 fd:00 3539593    /usr/lib/i386-linux-gnu/libffi.so.6.0.4
+b77ba000-b77bd000 r-xp 00000000 fd:00 4983903    /lib/i386-linux-gnu/libdl-2.27.so
+b77bd000-b77be000 r--p 00002000 fd:00 4983903    /lib/i386-linux-gnu/libdl-2.27.so
+b77be000-b77bf000 rw-p 00003000 fd:00 4983903    /lib/i386-linux-gnu/libdl-2.27.so
+b77bf000-b7834000 r-xp 00000000 fd:00 4980797    /lib/i386-linux-gnu/libpcre.so.3.13.3
+b7834000-b7835000 r--p 00074000 fd:00 4980797    /lib/i386-linux-gnu/libpcre.so.3.13.3
+b7835000-b7836000 rw-p 00075000 fd:00 4980797    /lib/i386-linux-gnu/libpcre.so.3.13.3
+b7836000-b7838000 rw-p 00000000 00:00 0 
+b7838000-b78c5000 r-xp 00000000 fd:00 4980976    /lib/i386-linux-gnu/libsystemd.so.0.21.0
+b78c5000-b78c7000 r--p 0008c000 fd:00 4980976    /lib/i386-linux-gnu/libsystemd.so.0.21.0
+b78c7000-b78c8000 rw-p 0008e000 fd:00 4980976    /lib/i386-linux-gnu/libsystemd.so.0.21.0
+b78c8000-b7aa9000 r-xp 00000000 fd:00 3543396    /usr/lib/i386-linux-gnu/libgio-2.0.so.0.5600.4
+b7aa9000-b7aad000 r--p 001e0000 fd:00 3543396    /usr/lib/i386-linux-gnu/libgio-2.0.so.0.5600.4
+b7aad000-b7aae000 rw-p 001e4000 fd:00 3543396    /usr/lib/i386-linux-gnu/libgio-2.0.so.0.5600.4
+b7aae000-b7aaf000 rw-p 00000000 00:00 0 
+b7aaf000-b7b0d000 r-xp 00000000 fd:00 3544621    /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.5600.4
+b7b0d000-b7b0e000 r--p 0005d000 fd:00 3544621    /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.5600.4
+b7b0e000-b7b0f000 rw-p 0005e000 fd:00 3544621    /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.5600.4
+b7b0f000-b7b12000 r-xp 00000000 fd:00 3544620    /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.5600.4
+b7b12000-b7b13000 r--p 00002000 fd:00 3544620    /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.5600.4
+b7b13000-b7b14000 rw-p 00003000 fd:00 3544620    /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.5600.4
+b7b14000-b7ce9000 r-xp 00000000 fd:00 4983898    /lib/i386-linux-gnu/libc-2.27.so
+b7ce9000-b7cea000 ---p 001d5000 fd:00 4983898    /lib/i386-linux-gnu/libc-2.27.so
+b7cea000-b7cec000 r--p 001d5000 fd:00 4983898    /lib/i386-linux-gnu/libc-2.27.so
+b7cec000-b7ced000 rw-p 001d7000 fd:00 4983898    /lib/i386-linux-gnu/libc-2.27.so
+b7ced000-b7cf0000 rw-p 00000000 00:00 0 
+b7cf0000-b7d0b000 r-xp 00000000 fd:00 4983925    /lib/i386-linux-gnu/libpthread-2.27.so
+b7d0b000-b7d0c000 ---p 0001b000 fd:00 4983925    /lib/i386-linux-gnu/libpthread-2.27.so
+b7d0c000-b7d0d000 r--p 0001b000 fd:00 4983925    /lib/i386-linux-gnu/libpthread-2.27.so
+b7d0d000-b7d0e000 rw-p 0001c000 fd:00 4983925    /lib/i386-linux-gnu/libpthread-2.27.so
+b7d0e000-b7d10000 rw-p 00000000 00:00 0 
+b7d10000-b7e3e000 r-xp 00000000 fd:00 3544619    /usr/lib/i386-linux-gnu/libglib-2.0.so.0.5600.4
+b7e3e000-b7e3f000 ---p 0012e000 fd:00 3544619    /usr/lib/i386-linux-gnu/libglib-2.0.so.0.5600.4
+b7e3f000-b7e40000 r--p 0012e000 fd:00 3544619    /usr/lib/i386-linux-gnu/libglib-2.0.so.0.5600.4
+b7e40000-b7e41000 rw-p 0012f000 fd:00 3544619    /usr/lib/i386-linux-gnu/libglib-2.0.so.0.5600.4
+b7e41000-b7e9a000 r-xp 00000000 fd:00 4980783    /lib/i386-linux-gnu/libdbus-1.so.3.19.4
+b7e9a000-b7e9b000 r--p 00058000 fd:00 4980783    /lib/i386-linux-gnu/libdbus-1.so.3.19.4
+b7e9b000-b7e9c000 rw-p 00059000 fd:00 4980783    /lib/i386-linux-gnu/libdbus-1.so.3.19.4
+b7e9c000-b7ec5000 r-xp 00000000 fd:00 3541035    /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2.3.4
+b7ec5000-b7ec6000 ---p 00029000 fd:00 3541035    /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2.3.4
+b7ec6000-b7ec7000 r--p 00029000 fd:00 3541035    /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2.3.4
+b7ec7000-b7ec8000 rw-p 0002a000 fd:00 3541035    /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2.3.4
+b7ec8000-b7efb000 r-xp 00000000 fd:00 3545459    /usr/lib/i386-linux-gnu/libgconf-2.so.4.1.5
+b7efb000-b7efc000 r--p 00032000 fd:00 3545459    /usr/lib/i386-linux-gnu/libgconf-2.so.4.1.5
+b7efc000-b7efd000 rw-p 00033000 fd:00 3545459    /usr/lib/i386-linux-gnu/libgconf-2.so.4.1.5
+b7efe000-b7f0a000 r-xp 00000000 fd:00 4983919    /lib/i386-linux-gnu/libnss_nis-2.27.so
+b7f0a000-b7f0b000 r--p 0000b000 fd:00 4983919    /lib/i386-linux-gnu/libnss_nis-2.27.so
+b7f0b000-b7f0c000 rw-p 0000c000 fd:00 4983919    /lib/i386-linux-gnu/libnss_nis-2.27.so
+b7f0c000-b7f14000 r-xp 00000000 fd:00 4983911    /lib/i386-linux-gnu/libnss_compat-2.27.so
+b7f14000-b7f15000 r--p 00007000 fd:00 4983911    /lib/i386-linux-gnu/libnss_compat-2.27.so
+b7f15000-b7f16000 rw-p 00008000 fd:00 4983911    /lib/i386-linux-gnu/libnss_compat-2.27.so
+b7f16000-b7f18000 r--p 002d8000 fd:00 3539575    /usr/lib/locale/locale-archive
+b7f18000-b7f1a000 rw-p 00000000 00:00 0 
+b7f1a000-b7f1d000 r--p 00000000 00:00 0          [vvar]
+b7f1d000-b7f1f000 r-xp 00000000 00:00 0          [vdso]
+b7f1f000-b7f45000 r-xp 00000000 fd:00 4983894    /lib/i386-linux-gnu/ld-2.27.so
+b7f45000-b7f46000 r--p 00025000 fd:00 4983894    /lib/i386-linux-gnu/ld-2.27.so
+b7f46000-b7f47000 rw-p 00026000 fd:00 4983894    /lib/i386-linux-gnu/ld-2.27.so
+bfd0b000-bfd2c000 rw-p 00000000 00:00 0          [stack]
