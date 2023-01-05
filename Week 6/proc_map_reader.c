@@ -17,7 +17,7 @@ int main(){
 
     //Refering it to the file that we need to read
     //Change the filepath
-    fp_read = fopen("/Users/rohansingh/github_repos/CSDS338_Lab/Source Code/File I-O/mem_map_linux.txt","r");
+    fp_read = fopen("/proc/self/maps","r");
 
     //Checking if it was unsuccessful
     if(!fp_read){
@@ -30,7 +30,9 @@ int main(){
 
     //Creating a filepointer for the file we need to write in (change the filepath)
     FILE* fp_write;
-    fp_write = fopen("/Users/rohansingh/github_repos/CSDS338_Lab/Source Code/File I-O/stats.txt","w");
+
+    //Change Filepath
+    fp_write = fopen("/Change File path/stats.txt","w");
 
     //Checking if it was unsuccessful
     if(!fp_write){

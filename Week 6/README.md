@@ -1,16 +1,26 @@
-# Week 3 Lab (Due: )
+# Week 6 
 ## Author: Rohan Singh  
 
-In this weeks lab, we will be looking at File I/O in C. After completing this week's lab exercise you will learn how to read contents from a file in C and how to write in a file in C. 
+Hello there!  
+In this weeks lab we will talk learn about File I/O operations in C. This weeks module is not that much of work and it is also not the most important thing in C, but it is pretty useful for the purpose of this class.  
 
-## Files
-Here is a description of the files in this week's lab:  
-  - **readfile.c**: This file contains the source code on how to read a file using C.           
-  - **writefile.c**: This file contains the source code on how to write something inside a file using C.      
+In all UNIX (and UNIX-based) systems, every bit of system information is stored in Files. This makes Reading/Writing to files 
+a pretty useful thing to know in C. So don't think of reading files as just reading text, but also reading something a lot more important. So make sure you look at **proc_map_reader.c**
+
+**Note:** This entire module is completely Linux-based, this will not work in Windows/MacOS. 
+
+There are many ways to read and write files in C, but here specifically we will be reading using File Descriptors, An fd is 
+a unique integer that can be used to identify an open file of the process.  
+
+These are some fixed file descriptors for a process:    
+  - **stdin:** 0
+  - **stdout:** 1
+  - **stderr:** 2
+
 
 ## Writing and Compiling code in C
 Here is a brief description on how to write/compile/run the code for your lab: 
-  - **Connecting to the EECSLab server:** Instructions for this are on Canvas and will be demonstrated in class. For this lab you may run the code locally, but in future labs you may want to connect to the EECSLab server.    
+  - **Connecting to the EECSLab server:** Instructions for this are on Canvas and will be demonstrated in class. For this lab you need to connect to the EECSLab server.    
   - **Opening VIM:** You should write your code using VIM, this is how you would use it-
     > vim filename.extenstion  
   - **Editing the file:** Once you open the file using vim, to enter the edit mode in VIM, you will have to do the following-  
@@ -26,22 +36,16 @@ Here is a brief description on how to write/compile/run the code for your lab:
 
 If you are stuck on any of these steps, please check out the contact section to reach out to me.  
 
-## Instructions for this weeks lab
-Here are the file specific intructions as well as the submission instructions.  
+## Files
+This weeks lab modules will demonstrate how to work with File I/O in C.  
+**Note:** You should look at them in the order in which they are listed here (Not the order in which they are in the directory).  
 
-**flowstatements.c:**  
-  - You will be provided with a flow statement example of getting the sum of 'n' integers using for, while and do-while loops.      
-  - Based on the example given above, you must design a C program that will calculate 'n!' (n factorial) using for and while loops.    
-  - You will have to print out the results from the operation as output.    
-  
-**circulararray.c:**
-  - You will be provided with the full code of a circular array in C, you will see throughout this course that this particular Data Structure is very important in different places in Operating Systems.  
-  - Try to explain what is happening in the code by writing down comments. Your previous knowledge of circular arrays will come in handy over here.   
-  - Try to come up with a real-life example where you would use circular arrays and use the methods from the circular array inside the main method of this file.  
-
-**Submission:**  
-You must attach a screenshot of you code and results of both programs in a pdf. In the same pdf you must also briefly describe the example/application that you chose for the circular array. You should submit this pdf on Canvas.  
-
+Files:
+  - **open_file.c**: This program is an introduction to reading files in C using File Descriptors.  
+  - **read_bacnkwards.c:** Same as the last program but backwards.      
+  - **proc_map_reader.c:** This program is probably the most important one, because we will be opening a Linux system file
+   "/proc/self/maps" file.  
+   **Note:** You will have to change the save filepath for this program.     
 
 
 ## Contact

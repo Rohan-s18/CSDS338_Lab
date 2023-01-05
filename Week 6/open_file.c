@@ -12,7 +12,7 @@ int main(){
     int count;
 
     //Change the filepath to some other file
-    char *filepath = "/Users/rohansingh/github_repos/CSDS338_Lab/README.md";
+    char *filepath = "/Users/rohansingh/github_repos/CSDS338_Lab/Week 6/textfile.txt";
 
     //Getting the file descriptor/handle
     fd = open(filepath, O_RDWR);
