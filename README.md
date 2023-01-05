@@ -3,7 +3,9 @@
 
 Repository for the CSDS 338 (Intro to Operating Systems) Lab for Case Western Reserve University. The lab component includes modules for the **C Programming Language, Linux CLI tutorials and Bash Scripts**. The main objective of this lab is to make students proficient in C and Bash by the end of the semester. **This lab is completely optional and you can pace the modules based on your own preference.**   
 
-These modules (not to be confused with C modules) will have their own README files that will contain additional details about the indiviadual files within the modules and will have links to externak resources that you might find useful. You can pace these modules based on your own comfort level.  
+These modules (not to be confused with C modules) will have their own README files that will contain additional details about the indiviadual files within the modules and will have links to externak resources that you might find useful. You can pace these modules based on your own comfort level.   
+
+Check out the Lab Website by Clicking **<a href = "https://www.jocularglint54.com/CSDS338Lab">Here!</a>**
 
 ## Modules  
 This is a brief description of all of the modules for the lab:
