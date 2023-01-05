@@ -3,6 +3,11 @@
 //  This file will demonstrate how to use Structs in C to create a linkedlist
 
 
+//  One important note
+//  The "->" operator is used to access the particular data type from the Struct Object pointed by the pointer
+//  "->" is equivalent to "*" + "."
+
+
 //  Imports
 #include <stdio.h>
 #include <stdlib.h>
@@ -69,3 +74,4 @@ int main(){
 
     return 0;
 }
+

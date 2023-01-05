@@ -1,6 +1,6 @@
 //  Author: Rohan Singh
 //  12/28/2022
-//  Code for a Queue ADT in C using Structs
+//  Code for a FIFO Queue ADT in C using Structs
 //  If you forgot how queues work or to see how they are implemented in Java using LinkedLists..
 //  ..check out my Data Structures repository on github
 
