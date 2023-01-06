@@ -61,6 +61,28 @@ After installation, type:
   > sl
 
 ## Operating Systems Jargon
+There are a lot of commonly used words in OS that are commonly tossed around by people, I'll try my best to explain some of them.  
+
+### Components of Operating Systems and Computers
+  - **Kernel:** It is the link between user-applications and Hardware/Drivers. It is the innermost layer of the OS.  
+  - **Shell:** It is the link between users and the OS. It is the outermost layer of the OS.  
+  - **Bash:** Bourne-Again Shell, it is a commonly used shell.  
+  - **I/O Devices:** Input-Output devices.  
+  - **Memory:** aka RAM/Main Memory, it is used to store information for immediate use.   
+  - **Storage:** aka Secondary Storage, it is used to store data and programs for later retrieval.  
+  - **Cache:** The temporary memory that CPUs have (it is very small).  
+  - **CPU:** aka Processor, it is the electronic circuitry that executes instructions comprising a computer program.   
+  - **GPU:** Graphics Processing Unit is a specialized processor designed to accelerate graphics rendering.  
+  
+### Types of Operating Systems (and related stuff)
+  - **UNIX:** Multitasking OS developed by Bell Labs developed as a minicomputer operating system.  
+  - **UNIX family:** It is a group of operating systems that are derived from the UNIX OS.  
+  - **UNIX like:** It is a group of operating systems that are not derived from UNIX directly, but behaves like one.  
+  - **POSIX:** Portable Operating System Interface, it is a bunch of standards for maintaining compatibility between operating systems.  
+  - **GNU:** Short for GNUs Not Unix, it is a collection of open source software for OS/ Compiler development.  
+  - **Linux:** Aka GNU OS or GNU/Linux is a UNIX-like operating system based on the Linux Kernel.    
+  - **MacOS:** It is a UNIX operating system developed by apple.   
+  - **Windows:** Microsoft's commercial Operating System.   
 
 
 ## Contact 
