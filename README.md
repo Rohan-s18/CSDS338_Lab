@@ -3,7 +3,7 @@
 
 Repository for the CSDS 338 (Intro to Operating Systems) Lab for Case Western Reserve University for Spring 2023. The lab component includes modules for the **C Programming Language, Linux CLI tutorials and Bash Scripts**. The main objective of this lab is to make students proficient in C and Bash by the end of the semester. **This lab is completely optional and you can pace the modules based on your own preference.**   
 
-This lab will take place in-person in **Glennan 408 5:30-6:20 pm**.    
+This lab will take place in-person on **Wednesdays at Glennan 408 5:30-6:20 pm**.    
 
 These modules (not to be confused with C modules) will have their own README files that will contain additional details about the indiviadual files within the modules and will have links to external resources that you might find useful. You can pace these modules based on your own comfort level.   
 
@@ -27,6 +27,7 @@ This is a brief description of all of the modules for the lab:
   
  
 ## Contact
+You can contact me during each lab that will be in **Glennan 408 5:30-6:20pm on Wednesdays**.  
 I will be going through the Lab content in my office hours, so if you have any questions just let me know over there. Additionally you can send me an email at:  
 rxs1182@case.edu  
 rohan.b.singh54@gmail.com  
