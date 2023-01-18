@@ -1,4 +1,4 @@
-#!  /bin/bash
+#!  /usr/bin/bash
 
 # Change $8 to $9 if you are using Debian
 awk '
