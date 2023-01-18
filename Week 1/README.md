@@ -12,7 +12,23 @@ Please follow the given steps to connect to the eecslab server:
   - Keep your cwru password handy for this step: You will be provided a prompt where you will have to type out your case password.  
   - You should be all set!  
   - Write the following command:  
-    > whoami
+    > whoami  
+
+## Writing and Compiling code in C
+Here is a brief description on how to write/compile/run the code for your lab: 
+  - **Connecting to the EECSLab server:** Instructions for this are on Canvas and will be demonstrated in class. For this lab you may run the code locally, but in future labs you may want to connect to the EECSLab server.    
+  - **Opening VIM:** You should write your code using VIM, this is how you would use it-
+    > vim filename.extenstion  
+  - **Editing the file:** Once you open the file using vim, to enter the edit mode in VIM, you will have to do the following-  
+    > :set paste <enter/return>  
+    > i <enter/return>    
+  - **Leaving the file:** Once you have edited the file, you can exit vim using-  
+    > <esc>  
+    > :wq  
+  - **Compiling the code:** After writing your code you can compile your C code using the following command-  
+    > cc filename.c  
+  - **Running the compiled code:** To run the code you just comiled in C, you should-  
+    > ./a.out  
 
 ## Cool Linux Commands
 If you haven't already checked the basic commands in the Week 0 module, please check those out, because we will getting into more advanced stuff now.  

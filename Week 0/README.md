@@ -30,6 +30,24 @@ Once you are connected to the eecslab server try running some of these basic Lin
     This command gives us the history of the last "num" commands, the argument num must be an integer.  
   - **type \<command\>**  
     This command gives us the location of the the given command (such as date/ps etc).  
+
+
+## Writing and Compiling code in C
+Here is a brief description on how to write/compile/run the code for your lab: 
+  - **Connecting to the EECSLab server:** Instructions for this are on Canvas and will be demonstrated in class. For this lab you may run the code locally, but in future labs you may want to connect to the EECSLab server.    
+  - **Opening VIM:** You should write your code using VIM, this is how you would use it-
+    > vim filename.extenstion  
+  - **Editing the file:** Once you open the file using vim, to enter the edit mode in VIM, you will have to do the following-  
+    > :set paste <enter/return>  
+    > i <enter/return>    
+  - **Leaving the file:** Once you have edited the file, you can exit vim using-  
+    > <esc>  
+    > :wq  
+  - **Compiling the code:** After writing your code you can compile your C code using the following command-  
+    > cc filename.c  
+  - **Running the compiled code:** To run the code you just comiled in C, you should-  
+    > ./a.out  
+    
     
 ## Contact 
 Like all weeks, I will be going through the Lab content in my office hours of the same week, so if you have any questions just let me know over there. Additionally you can send me an email at:  
