@@ -28,16 +28,18 @@ Here is a brief description on how to write/compile/run the code for your lab:
   - **Compiling the code:** After writing your code you can compile your C code using the following command-  
     > cc filename.c  
   - **Running the compiled code:** To run the code you just comiled in C, you should-  
-    > ./a.out  
+    > ./a.out   
 
 ## Cool Linux Commands
 If you haven't already checked the basic commands in the Week 0 module, please check those out, because we will getting into more advanced stuff now.  
 
 ### This is a cheat sheet for the basic Linux File/Directory Structure commands:  
   - **cd \<dirname\>**  
-    Changes directory to dirname.    
+    Changes current directory to dirname.    
   - **cd ..**                   
     Goes back one step in the directory tree.    
+  - **pwd**  
+    Prints the name (and path) to the current working directory.  
   - **cd**                     
     Goes back to the home directory.    
   - **ls -option**  
@@ -56,6 +58,8 @@ If you haven't already checked the basic commands in the Week 0 module, please c
     Renames the filename form old_filename to new_filename.  
   - **grep regex file**  
     grep or global regular expression print, prints out the lines which contains the regex pattern.  
+  - **lsb_release -a**  
+    Linux Distro and release info.  
     
 ### This is a cheatsheet for basic system information for Linux:
   - **ps**  
