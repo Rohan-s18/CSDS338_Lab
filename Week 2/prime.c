@@ -2,6 +2,7 @@
 //  12/22/2022
 //  This file contains code to find n-prime numbers in C
 
+//  Imports
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,10 +13,14 @@ int nprimes;
 //This pointer will be used to store all of the 'nprimes' prime numbers
 int *prime;
 
+
 /*
-int argc: This tells us how many command line arguments are passed, the intial value is 1 (name of process)
-char *argv[]: This is the array of strings containing the command line arguments
+    int argc: This tells us how many command line arguments are passed, the intial value is 1 (name of process)
+    char *argv[]: This is the array of strings containing the command line arguments
 */
+
+
+//  Main method
 int main(int argc, char *argv[]) {
 
 	//Getting the number of primes from the command line arguments
