@@ -37,6 +37,10 @@ This weeks files are:
   - **circulararray.c:** This file includes the implementation of the Circular Array (aka circular queue) in C.  
   - **Live Demo: prime.c** This file contains code for finding nprime numbers in C. This code is slightly different from the rest, so  I will be demonstrating them in my office hours.   
 
+## Group Task
+With your group members, you will have to write C code that will replicate the functionality of the demonstrated code. You are free to use any of the C-libraries that you want. Try thinking about the logic in Java (if you are more comfortable in Java than you are in C), and then try translating the code from Java to C.
+
+
 ## Contact
 Like all weeks, I will be going through the Lab content in my office hours of the same week, so if you have any questions just let me know over there. Additionally you can send me an email at:  
 rxs1182@case.edu  
