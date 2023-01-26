@@ -32,6 +32,7 @@ int main(){
     FILE* fp_write;
 
     //Change Filepath
+    /*
     fp_write = fopen("/Change File path/stats.txt","w");
 
     //Checking if it was unsuccessful
@@ -39,7 +40,8 @@ int main(){
         printf("Oopsie Poopsie :/\n");
         return 1;
     }
-
+    */
+    
     //This is where shit gets real (Actually Reading the file)
     //We will be calculating the size of each memory segment and the gap
 
@@ -66,7 +68,7 @@ int main(){
         prev_high = high;
 
         //Writing to the stats file
-        fprintf(fp_write,"Size of segment: %llu\nGap between segments: %llu\n\n",size,gap);
+        fprintf(stdout,"Size of segment: %llu\nGap between segments: %llu\n\n",size,gap);
 
     }
         
