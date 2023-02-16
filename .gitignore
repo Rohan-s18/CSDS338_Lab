@@ -3,3 +3,7 @@
 *.pem
 
 .vscode
+
+__pycache__
+
+.pyc
