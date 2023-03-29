@@ -3,6 +3,10 @@
 //  Code for Process Call Stack ADT implementation in C++
 
 
+//  Definitions
+#define MAX 100
+#define FACT 10
+
 //  Imports
 #include <iostream>
 #include <cstdlib>
@@ -14,20 +18,23 @@
 
 //  Simple function to print hello world
 void print_message(){
-    printf("Hello World!\n");
+    std::cout<<"Hello World!\n";
 }
 
 //  Function to get the factorial of the input integer
-int factorial(int x){
+void factorial(){
+    int x = FACT;
     if(x < 2)
-        return 1;
+        std::cout<<"The factorial of "<<x<<" is 1\n";
 
     int fact = x;
     while(x-- > 1){
         fact *=x;
     }
 
-    return fact;
+    std::cout<<"The factorial of "<<x<<" is "<<fact<<"\n";
+
+    
 }
 
 
@@ -38,7 +45,7 @@ class Stack{
     private:
     
     //Pointer that points to the base of the stack
-    void** base;
+    void (*base[MAX]);
 
     //This is the offset (to get the top of the stack)
     int offset;
@@ -52,28 +59,28 @@ class Stack{
     } 
 
     //Method to push into stack
-    void push(void* x){
+    void push(void (*func)()){
         //Adding a new element to the offset value
-        void* temp = base+offset;
-        temp = x;
-        offset++;
+        //void(*temp)() = base[offset]();
+        //temp = func;
+        //offset++;
     }
 
     //Method to pop stuff out of the stack
-    void* pop(){
+    void pop(){
 
         //Empty Stack
         if(offset <= 0)
-            return NULL;
+            return;
 
         //Reducing the offset
         offset--;
 
         //Storing the top into a temp variable
-        void* temp = base+offset;
+        //*(base+offset)();
 
         //Returning the temp variable
-        return temp;
+        //return temp;
     }
 
 
@@ -93,6 +100,11 @@ int main(){
     func_ptr1 = &print_message;
 
 
+    void (*func_ptr2)();
+
+    func_ptr1 = &factorial;
+
+
     //Checking the Push method
     test->push(func_ptr1);
     test->push(func_ptr1);
@@ -101,13 +113,26 @@ int main(){
     test->push(func_ptr1);
 
     //Testing the Pop method
-    std::cout<<test->pop()<<" ";
-    std::cout<<test->pop()<<" ";
-    std::cout<<test->pop()<<" ";
-    std::cout<<test->pop()<<" ";
-    std::cout<<test->pop()<<" \n";
+    std::cout<<"Popping the methods off of the call stack";
+    test->pop();
+    test->pop();
+    test->pop();
+    test->pop();
+    test->pop();
 
+    /*
+    void(*base[MAX]);
+    base[0] = &factorial;
+    base[1] = &print_message;
 
+    base[0]();
+    base[1]();
+    */
+
+   void (*F_A[2])() = {&factorial,&print_message};
+
+   F_A[1]();
+   F_A[2](); 
 
     return 0;
 }
