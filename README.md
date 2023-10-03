@@ -1,5 +1,5 @@
 # CSDS 338: Intro to Operating Systems Lab
-## Author: Rohan Singh (TA CSDS 338) and Rachel Tjarksen
+## Author: Rohan Singh (TA CSDS 338)
 
 Repository for the CSDS 338 (Intro to Operating Systems) Lab for Case Western Reserve University for Spring 2023. The lab component includes modules for the **C Programming Language, Linux CLI tutorials and Bash Scripts**. The main objective of this lab is to make students proficient in C and Bash by the end of the semester. **This lab is completely optional and you can pace the modules based on your own preference.**   
 
