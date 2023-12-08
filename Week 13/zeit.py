@@ -4,7 +4,6 @@ Benchmarking code for VM/BMM performance comparison
 """
 
 import time
-import matplotlib.pyplot as plt
 import numpy as np
 import psutil
 import requests
